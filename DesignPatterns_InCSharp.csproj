@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{141F2B52-3658-488B-94C5-4B1E3997D665}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>DesignPatterns_InCSharp</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DesignPatterns_InCSharp</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>system</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>system.data</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>system.windows.forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>system.xml</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Behavioral Patterns\Chain of Resp\Definition.htm" />
+    <Content Include="Behavioral Patterns\Command\Definition.htm" />
+    <Content Include="Behavioral Patterns\Interpreter\Definition.htm" />
+    <Content Include="Behavioral Patterns\Iterator\Definition.htm" />
+    <Content Include="Behavioral Patterns\Mediator\Definition.htm" />
+    <Content Include="Behavioral Patterns\Memento\Definition.htm" />
+    <Content Include="Behavioral Patterns\Observer\Definition.htm" />
+    <Content Include="Behavioral Patterns\State\Definition.htm" />
+    <Content Include="Behavioral Patterns\Strategy\Definition.htm" />
+    <Content Include="Behavioral Patterns\Template Method\Definition.htm" />
+    <Content Include="Behavioral Patterns\Visitor\Definition.htm" />
+    <Content Include="Creational Patterns\Abstract Factory\Definition.htm" />
+    <Content Include="Creational Patterns\Abstract Factory\Images\abstract.gif" />
+    <Content Include="Creational Patterns\Abstract Factory\Images\use_high.gif" />
+    <Content Include="Creational Patterns\Builder\Definition.htm" />
+    <Content Include="Creational Patterns\Builder\Diagrams\builder.gif" />
+    <Content Include="Creational Patterns\Builder\Images\use_medium_low.gif" />
+    <Content Include="Creational Patterns\Factory Method\Definition.htm" />
+    <Content Include="Creational Patterns\Factory Method\Diagrams\factory.gif" />
+    <Content Include="Creational Patterns\Factory Method\Images\use_high.gif" />
+    <Content Include="Creational Patterns\Prototype\Definition.htm" />
+    <Content Include="Creational Patterns\Singleton\Definition.htm" />
+    <Content Include="Defination.htm" />
+    <Content Include="Structural Patterns\Adapter\Definition.htm" />
+    <Content Include="Structural Patterns\Bridge\Definition.htm" />
+    <Content Include="Structural Patterns\Composite\Definition.htm" />
+    <Content Include="Structural Patterns\Decorator\Definition.htm" />
+    <Content Include="Structural Patterns\Facade\Definition.htm" />
+    <Content Include="Structural Patterns\Flyweight\Definition.htm" />
+    <Content Include="Structural Patterns\Proxy\Definition.htm" />
+    <Compile Include="Behavioral Patterns\Chain of Resp\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Chain of Resp\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Command\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Command\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Interpreter\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Interpreter\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Iterator\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Iterator\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Mediator\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Mediator\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Memento\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Memento\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Observer\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Observer\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\State\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\State\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Strategy\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Strategy\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Template Method\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Template Method\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Visitor\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavioral Patterns\Visitor\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Creational Patterns\Abstract Factory\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Creational Patterns\Abstract Factory\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Creational Patterns\Builder\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Creational Patterns\Builder\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Creational Patterns\Factory Method\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Creational Patterns\Factory Method\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Creational Patterns\Prototype\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Creational Patterns\Prototype\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Creational Patterns\Singleton\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Creational Patterns\Singleton\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Adapter\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Adapter\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Bridge\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Bridge\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Composite\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Composite\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Decorator\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Decorator\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Facade\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Facade\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Flyweight\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Flyweight\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Proxy\RealWorld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structural Patterns\Proxy\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Behavioral Patterns\Chain of Resp\Diagrams\" />
+    <Folder Include="Behavioral Patterns\Chain of Resp\Images\" />
+    <Folder Include="Behavioral Patterns\Command\Diagrams\" />
+    <Folder Include="Behavioral Patterns\Command\Images\" />
+    <Folder Include="Behavioral Patterns\Interpreter\Diagrams\" />
+    <Folder Include="Behavioral Patterns\Interpreter\Images\" />
+    <Folder Include="Behavioral Patterns\Iterator\Diagrams\" />
+    <Folder Include="Behavioral Patterns\Iterator\Images\" />
+    <Folder Include="Behavioral Patterns\Mediator\Diagrams\" />
+    <Folder Include="Behavioral Patterns\Mediator\Images\" />
+    <Folder Include="Behavioral Patterns\Memento\Diagrams\" />
+    <Folder Include="Behavioral Patterns\Memento\Images\" />
+    <Folder Include="Behavioral Patterns\Observer\Diagrams\" />
+    <Folder Include="Behavioral Patterns\Observer\Images\" />
+    <Folder Include="Behavioral Patterns\State\Diagrams\" />
+    <Folder Include="Behavioral Patterns\State\Images\" />
+    <Folder Include="Behavioral Patterns\Strategy\Diagrams\" />
+    <Folder Include="Behavioral Patterns\Strategy\Images\" />
+    <Folder Include="Behavioral Patterns\Template Method\Diagrams\" />
+    <Folder Include="Behavioral Patterns\Template Method\Images\" />
+    <Folder Include="Behavioral Patterns\Visitor\Diagrams\" />
+    <Folder Include="Behavioral Patterns\Visitor\Images\" />
+    <Folder Include="Creational Patterns\Prototype\Diagrams\" />
+    <Folder Include="Creational Patterns\Prototype\Images\" />
+    <Folder Include="Creational Patterns\Singleton\Diagrams\" />
+    <Folder Include="Creational Patterns\Singleton\Images\" />
+    <Folder Include="Structural Patterns\Adapter\Diagrams\" />
+    <Folder Include="Structural Patterns\Adapter\Images\" />
+    <Folder Include="Structural Patterns\Bridge\Diagrams\" />
+    <Folder Include="Structural Patterns\Bridge\Images\" />
+    <Folder Include="Structural Patterns\Composite\Diagrams\" />
+    <Folder Include="Structural Patterns\Composite\Images\" />
+    <Folder Include="Structural Patterns\Decorator\Diagrams\" />
+    <Folder Include="Structural Patterns\Decorator\Images\" />
+    <Folder Include="Structural Patterns\Facade\Diagrams\" />
+    <Folder Include="Structural Patterns\Facade\Images\" />
+    <Folder Include="Structural Patterns\Flyweight\Diagrams\" />
+    <Folder Include="Structural Patterns\Flyweight\Images\" />
+    <Folder Include="Structural Patterns\Proxy\Diagrams\" />
+    <Folder Include="Structural Patterns\Proxy\Images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

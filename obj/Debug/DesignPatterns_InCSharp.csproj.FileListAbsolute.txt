@@ -1,0 +1,5 @@
+F:\Workspace_VS2012\NewFeature\C#\DesignPatterns_InCSharp\DesignPatterns_InCSharp\bin\Debug\DesignPatterns_InCSharp.dll
+F:\Workspace_VS2012\NewFeature\C#\DesignPatterns_InCSharp\DesignPatterns_InCSharp\bin\Debug\DesignPatterns_InCSharp.pdb
+F:\Workspace_VS2012\NewFeature\C#\DesignPatterns_InCSharp\DesignPatterns_InCSharp\obj\Debug\DesignPatterns_InCSharp.csprojResolveAssemblyReference.cache
+F:\Workspace_VS2012\NewFeature\C#\DesignPatterns_InCSharp\DesignPatterns_InCSharp\obj\Debug\DesignPatterns_InCSharp.dll
+F:\Workspace_VS2012\NewFeature\C#\DesignPatterns_InCSharp\DesignPatterns_InCSharp\obj\Debug\DesignPatterns_InCSharp.pdb

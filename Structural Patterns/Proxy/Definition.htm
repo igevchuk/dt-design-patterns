@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="ProgId" content="VisualStudio.HTML">
+		<meta name="Originator" content="Microsoft Visual Studio .NET 7.1">
+	    <style type="text/css">
+
+
+.totop
+{
+  margin-bottom: 2px;
+  padding-bottom: 4px;
+}
+
+
+a:link, a:visited, a:active
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+.dash-wide
+{
+  width: 594px;
+  float: left;
+  height: 4px;
+  margin: 0;
+  padding: 0;
+  background-image: url('http://www.dofactory.com/Images/dash.gif');
+  background-repeat: repeat-x;
+  background-color: white;
+  font-size: 0;
+}
+
+
+            .auto-style1 {
+                line-height: 1.6em;
+                font-size: 10pt;
+                text-align: right;
+                margin: 10px 0;
+                padding: 0;
+            }
+        </style>
+	</head>
+	<body>
+		<H3>Proxy definition: An object representing another object</H3>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>Provide a surrogate or placeholder for another object to control access to it. <br />
+                                <br />
+                                Frequency of use:
+                                <img src="Images/use_medium_high.gif" />&nbsp;&nbsp;medium high </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    
+        <h3 id="uml-scroll">UML class diagram</h3>
+        <br />
+        <div style="padding-left: 20px;">
+            <img border="0" src="Diagrams/proxy.gif" />
+        </div>
+       
+        <h3 id="participants-scroll">participants</h3>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;The classes and/or objects participating in this pattern are:
+        </p>
+        <ul>
+            <li><font color="#aa0000"><b>Proxy </b></font>&nbsp;&nbsp;<font color="#007733"><b>(MathProxy)</b></font>
+                <ul>
+                    <li>maintains a reference that lets the proxy access the real subject. Proxy may refer to a Subject if the RealSubject and Subject interfaces are the same. </li>
+                    <li>provides an interface identical to Subject&#39;s so that a proxy can be substituted for for the real subject. </li>
+                    <li>controls access to the real subject and may be responsible for creating and deleting it. </li>
+                    <li>other responsibilites depend on the kind of proxy:
+                        <ul>
+                            <li><font color="#aa0000"><em>remote proxies</em></font> are responsible for encoding a request and its arguments and for sending the encoded request to the real subject in a different address space. </li>
+                            <li><font color="#aa0000"><em>virtual proxies</em></font> may cache additional information about the real subject so that they can postpone accessing it. For example, the ImageProxy from the Motivation caches the real images&#39;s extent. </li>
+                            <li><font color="#aa0000"><em>protection proxies</em></font> check that the caller has the access permissions required to perform a request. </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><font color="#aa0000"><b>Subject </b></font>&nbsp;&nbsp;<font color="#007733"><b>(IMath)</b></font>
+                <ul>
+                    <li>defines the common interface for RealSubject and Proxy so that a Proxy can be used anywhere a RealSubject is expected. </li>
+                </ul>
+            </li>
+            <li><font color="#aa0000"><b>RealSubject </b></font>&nbsp;&nbsp;<font color="#007733"><b>(Math)</b></font>
+                <ul>
+                    <li>defines the real object that the proxy represents. </li>
+                </ul>
+            </li>
+        </ul>
+	</body>
+</html>

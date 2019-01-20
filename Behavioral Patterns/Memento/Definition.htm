@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="ProgId" content="VisualStudio.HTML">
+		<meta name="Originator" content="Microsoft Visual Studio .NET 7.1">
+	    <style type="text/css">
+
+
+.totop
+{
+  margin-bottom: 2px;
+  padding-bottom: 4px;
+}
+
+
+a:link, a:visited, a:active
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+.dash-wide
+{
+  width: 594px;
+  float: left;
+  height: 4px;
+  margin: 0;
+  padding: 0;
+  background-image: url('http://www.dofactory.com/Images/dash.gif');
+  background-repeat: repeat-x;
+  background-color: white;
+  font-size: 0;
+}
+
+
+            .auto-style1 {
+                line-height: 1.6em;
+                font-size: 10pt;
+                text-align: right;
+                margin: 10px 0;
+                padding: 0;
+            }
+        </style>
+	</head>
+	<body>
+		<H3>Memento definition: Capture and restore an object's internal state</H3>
+		<P>
+			&nbsp;</P>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>Without violating encapsulation, capture and externalize an object&#39;s internal state so that the object can be restored to this state later.
+                                <br />
+                                <br />
+                                Frequency of use:
+                                <img src="Images/use_low.gif" />&nbsp;&nbsp;low </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br />
+    
+        <h3 id="uml-scroll">UML class diagram</h3>
+        <br />
+        <div style="padding-left: 20px;">
+            <img border="0" src="Diagrams/memento.gif" />
+        </div>
+     
+        <h3 id="participants-scroll">participants</h3>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;The classes and/or objects participating in this pattern are:
+        </p>
+        <ul>
+            <li><font color="#aa0000"><b>Memento</b></font>&nbsp;&nbsp;<font color="#007733"><b>(Memento)</b></font>
+                <ul>
+                    <li>stores internal state of the Originator object. The memento may store as much or as little of the originator&#39;s internal state as necessary at its originator&#39;s discretion. </li>
+                    <li>protect against access by objects of other than the originator. Mementos have effectively two interfaces. Caretaker sees a narrow interface to the Memento -- it can only pass the memento to the other objects. Originator, in contrast, sees a wide interface, one that lets it access all the data necessary to restore itself to its previous state. Ideally, only the originator that produces the memento would be permitted to access the memento&#39;s internal state.</li>
+                </ul>
+            </li>
+            <li><font color="#aa0000"><b>Originator</b></font>&nbsp;&nbsp;<font color="#007733"><b>(SalesProspect)</b></font>
+                <ul>
+                    <li>creates a memento containing a snapshot of its current internal state. </li>
+                    <li>uses the memento to restore its internal state</li>
+                </ul>
+            </li>
+            <li><font color="#aa0000"><b>Caretaker</b></font>&nbsp;&nbsp;<font color="#007733"><b>(Caretaker)</b></font>
+                <ul>
+                    <li>is responsible for the memento&#39;s safekeeping </li>
+                    <li>never operates on or examines the contents of a memento.</li>
+                </ul>
+            </li>
+        </ul>
+	</body>
+</html>

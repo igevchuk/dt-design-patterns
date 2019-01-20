@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="ProgId" content="VisualStudio.HTML">
+		<meta name="Originator" content="Microsoft Visual Studio .NET 7.1">
+	    <style type="text/css">
+
+
+.totop
+{
+  margin-bottom: 2px;
+  padding-bottom: 4px;
+}
+
+
+a:link, a:visited, a:active
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+.dash-wide
+{
+  width: 594px;
+  float: left;
+  height: 4px;
+  margin: 0;
+  padding: 0;
+  background-image: url('http://www.dofactory.com/Images/dash.gif');
+  background-repeat: repeat-x;
+  background-color: white;
+  font-size: 0;
+}
+
+
+            .auto-style1 {
+                line-height: 1.6em;
+                font-size: 10pt;
+                text-align: right;
+                margin: 10px 0;
+                padding: 0;
+            }
+        </style>
+	</head>
+	<body>
+		<H3>Mediator definition: Defines simplified communication between classes</H3>
+		<P>
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td>Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
+                                    <br />
+                                    <br />
+                                    Frequency of use:
+                                    <img src="Images/use_medium_low.gif" />&nbsp;&nbsp;medium low </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <br />
+        
+            <h3 id="uml-scroll">UML class diagram</h3>
+            <br />
+            <div style="padding-left: 20px;">
+                <img border="0" src="Diagrams/mediator.gif" />
+            </div>
+          
+            <h3 id="participants-scroll">participants</h3>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;The classes and/or objects participating in this pattern are:
+            </p>
+            <ul>
+                <li><font color="#aa0000"><b>Mediator</b></font>&nbsp;&nbsp;<font color="#007733"><b>(IChatroom)</b></font>
+                    <ul>
+                        <li>defines an interface for communicating with Colleague objects</li>
+                    </ul>
+                </li>
+                <li><font color="#aa0000"><b>ConcreteMediator</b></font>&nbsp;&nbsp;<font color="#007733"><b>(Chatroom)</b></font>
+                    <ul>
+                        <li>implements cooperative behavior by coordinating Colleague objects </li>
+                        <li>knows and maintains its colleagues</li>
+                    </ul>
+                </li>
+                <li><font color="#aa0000"><b>Colleague classes</b></font>&nbsp;&nbsp;<font color="#007733"><b>(Participant)</b></font>
+                    <ul>
+                        <li>each Colleague class knows its Mediator object </li>
+                        <li>each colleague communicates with its mediator whenever it would have otherwise communicated with another colleague</li>
+                    </ul>
+                </li>
+            </ul>
+		</P>
+	</body>
+</html>

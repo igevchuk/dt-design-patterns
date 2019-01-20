@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="ProgId" content="VisualStudio.HTML">
+		<meta name="Originator" content="Microsoft Visual Studio .NET 7.1">
+	    <style type="text/css">
+
+
+.totop
+{
+  margin-bottom: 2px;
+  padding-bottom: 4px;
+}
+
+
+a:link, a:visited, a:active
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+.dash-wide
+{
+  width: 594px;
+  float: left;
+  height: 4px;
+  margin: 0;
+  padding: 0;
+  background-image: url('http://www.dofactory.com/Images/dash.gif');
+  background-repeat: repeat-x;
+  background-color: white;
+  font-size: 0;
+}
+
+
+            .auto-style1 {
+                line-height: 1.6em;
+                font-size: 10pt;
+                text-align: right;
+                margin: 10px 0;
+                padding: 0;
+            }
+        </style>
+	</head>
+	<body>
+		<H3>Abstract Factory: Creates an instance of several families of classes</H3>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+                                <br />
+                                <br />
+                                Frequency of use:
+                                <img src="Images/use_high.gif" />&nbsp;&nbsp;high </td>
+                        </tr>
+                    </table>
+                </td>
+                <td align="right" width="95">&nbsp;</td>
+            </tr>
+        </table>
+        <br />
+        <h3 id="uml-scroll">UML class diagram</h3>
+        <div style="padding-left: 20px;">
+            <img border="0" src="images/abstract.gif" />
+        </div>
+        <div id="ctl00_ContentPlaceHolder1_Totop2">
+            <div class="totop">
+                <p class="auto-style1">
+                    <a name="participants"></a><a href="http://www.dofactory.com/Patterns/PatternAbstract.aspx#">
+                    <img align="absbottom" src="http://www.dofactory.com/Images/up.gif" />return to top</a></p>
+                <div class="dash-wide">
+                </div>
+            </div>
+        </div>
+        <h3 id="participants-scroll">participants</h3>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;The classes and/or objects participating in this pattern are:
+        </p>
+        <ul>
+            <li><font color="#aa0000"><b>AbstractFactory</b></font>&nbsp;&nbsp;<font color="#007733"><b>(ContinentFactory)</b></font>
+                <ul>
+                    <li>declares an interface for operations that create abstract products </li>
+                </ul>
+            </li>
+            <li><font color="#aa0000"><b>ConcreteFactory</b></font> &nbsp;&nbsp;<font color="#007733"><b>(AfricaFactory, AmericaFactory)</b></font>
+                <ul>
+                    <li>implements the operations to create concrete product objects </li>
+                </ul>
+            </li>
+            <li><font color="#aa0000"><b>AbstractProduct</b></font> &nbsp;&nbsp;<font color="#007733"><b>(Herbivore, Carnivore)</b></font>
+                <ul>
+                    <li>declares an interface for a type of product object </li>
+                </ul>
+            </li>
+            <li><font color="#aa0000"><b>Product</b></font>&nbsp;&nbsp;<font color="#007733"><b>(Wildebeest, Lion, Bison, Wolf)</b></font>
+                <ul>
+                    <li>defines a product object to be created by the corresponding concrete factory </li>
+                    <li>implements the AbstractProduct interface </li>
+                </ul>
+            </li>
+            <li><font color="#aa0000"><b>Client</b></font>&nbsp;&nbsp;<font color="#007733"><b>(AnimalWorld)</b></font>
+                <ul>
+                    <li>uses interfaces declared by AbstractFactory and AbstractProduct classes </li>
+                </ul>
+            </li>
+        </ul>
+	</body>
+</html>
